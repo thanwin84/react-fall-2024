@@ -8,6 +8,7 @@ const options = [
   { value: 'bongodev', label: 'bongoDev' },
   { value: 'talha', label: 'Talha' },
   { value: 'sumaiya', label: 'Sumaiya' },
+  { value: 'thanwin', label: 'Than Win' },
 ];
 
 export const ProjectLayout = () => {
