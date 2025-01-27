@@ -1,9 +1,12 @@
 import { useParams } from 'react-router';
+import { Counter } from '@/components/thanwin';
 
 export const ThanWinProjectPage = () => {
   const { projectId } = useParams();
 
-  const componentMap = {};
+  const componentMap = {
+    'counter-app': <Counter />,
+  };
 
   const selectedProject = componentMap[projectId];
 
