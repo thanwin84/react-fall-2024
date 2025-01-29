@@ -1,2 +1,4 @@
 import Counter from './counter/Counter';
-export { Counter };
+import Ecommerce from './ecommerce/Ecommerce';
+
+export { Counter, Ecommerce };
